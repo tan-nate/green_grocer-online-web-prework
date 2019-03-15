@@ -67,5 +67,5 @@ def checkout(cart, coupons)
   if sum > 100
     sum = (sum * 0.9).round(2)
   end
-  sum
+  sum.round(2)
 end
