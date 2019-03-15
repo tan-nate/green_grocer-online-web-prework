@@ -51,7 +51,7 @@ end
 
 puts "Coupons on hand"
 coupons.each do |coupon|
-	puts "Get #{coupon[:item].capitalize} for #{coupon[:cost]} when you by #{coupon[:num]}"
+	puts "Get #{coupon[:item].capitalize} for #{coupon[:cost]} when you buy #{coupon[:num]}"
 end
 
 puts "Your total is #{checkout(cart, coupons)}"
